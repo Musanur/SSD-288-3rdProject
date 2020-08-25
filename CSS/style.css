@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* global area start */
+section{
+    width: 100%;
+}
+.col-md-4{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+/* global area end */
+
+/******************************
+***header area start***
+*******************************/
+.header-section{
+    width: 100%;
+    background: #eeffff;
+}
+
+.header-section .container .col-md-12 img{
+    padding: 15px 0px;
+}
+/******************************
+***header area end***
+*******************************/
+
+/**banner area start**/
+
+.banner{
+    background-image: url("../image/banner/banner.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-inner h1{
+    font-size: 70px;
+    margin-top: 100px;
+    font-weight: 700;
+    color: white;
+}
+
+.boder-area{
+    height: 3px;
+    width: 50%;
+    background: #15a4fa;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.banner-inner p{
+    font-family: sans-serif;
+    color: white;
+    padding: 30px 0px;
+}
+
+.btn{
+    padding: 8px 40px !important;
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+}
+
+/**banner area end**/
+
+/* simple text area start */
+.simple-text{
+    background: #f6f9f9;
+    height: 300px;
+    
+}
+
+.simple-text .container{
+    text-align: center;
+   
+}
+
+.simple-text h1{
+    margin-top: 80px;
+}
+
+/* simple text area end */
+
+/* midea area start */
+.midea .container{
+    margin-top: 150px;
+
+}
+
+.midea .container img{
+    margin-bottom: 20px;
+}
+
+.midea-area h4{
+    color: #2d3950;
+    margin-top: 15px;
+}
+
+.midea-area p {
+    color: #999999;
+    margin-top: 15px;
+}
+/* midea area end */
+
+/*  pro section area start */
+.por-section{
+    background-color: #f6f9f9;
+    height: 750px;
+}
+
+.por-section .container {
+    text-align: center;
+}
+
+.pro-text p{
+    color: #999999;
+    margin-top: 20px;
+}
+
+.pro-text h1{
+    color: #2d3950;
+    padding-top: 30px;
+}
+
+.pro-text{
+    text-align: center;
+  
+}
+
+/*  pro section area end */
+
+/* email-area start */
+.email-area{
+    margin-top: 100px;
+    background-image: url("../image/banner/BG.png");
+    background-position: center top;
+    background-size: cover;
+    text-align: center;   
+    position: relative;
+    z-index: 1;
+}
+
+.email-area::after{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background:rgba(24, 20, 75, 0.726);
+z-index: -1;
+
+}
+.email-area .container {
+    width: 500px !important;
+}
+
+.
+
+.email-text h1{
+    color: white;
+    
+}
+
+.email-text{
+    color: white;
+    margin-top: 80px ;
+}
+
+.email-text input{
+    width: 400px;
+    height: 40px;
+    padding: 24px 40px;
+    border: 2px solid aqua;
+    border-radius: 53px;
+    background: transparent;
+    outline: none;
+    color: white;
+    margin-left: 14%;
+    margin-bottom: 20px;
+}
+
+textarea{
+     
+    padding: 24px 40px;
+    border: 2px solid aqua;
+    background: transparent;
+    outline: none;
+    color: white;
+    margin-left: 14% !important;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 16px !important;
+}
+
+.custom-checkbox{
+    margin-left: -147px !important;
+    margin-top: 0px !important;
+}
+
+.email-text .btn{
+    margin-top: -33px !important;
+    margin-left: 310px;
+    font-weight: 700;
+    margin-bottom: 50px !important;
+}
+/* email-area end */
+
+/* footer area start */
+footer{
+    text-align: center;
+    color: gray;
+    padding: 20px 0;
+}
+/* footer area end */
